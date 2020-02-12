@@ -1,0 +1,87 @@
+@font-face{font-family:"Moebius_Regular_kor"; src:url("../font/Moebius_Regular_kor.ttf");}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Moebius_Regular_kor";
+}
+a{
+	color: black;
+}
+#aa{
+	font-size: 20px;
+	border: 1px solid black;
+}
+.menu{
+	margin-left: 10px;    
+}
+.menuList{
+	float:left;
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	text-align: center;
+}
+.menuList{
+	    /*margin-left: 143px;*/
+}
+#mainLogo{
+	width: 150px;
+}
+.textMunu{
+    margin-top: 40px;
+}
+.ant-dropdown {
+    position: absolute;
+    top: 90px !important;
+    width: 100px;
+    font-size: 41px !important;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 400px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+#mainBody{
+	/*width: 100%;
+	margin-top: 10px;
+	margin: 0 auto;*/
+	width:1280px;
+	margin-top: 10px;
+	margin: 0 auto;
+}
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+@media screen and (max-width:1920px) {
+	.menuList{
+	    margin-left: 0px;
+	    width: 159px;
+	}    
+    .menuList:not(:first-child){
+		margin-left: 101px;
+	}
+}
+
+
+@media screen and (min-width:1280px) {
+	.menuList{
+	    margin-left: 0px;
+	    width: 158px;
+	}    
+    .menuList:not(:first-child){
+		margin-left: 101px;
+	}
+	
+}
+
+
+
+
+
+

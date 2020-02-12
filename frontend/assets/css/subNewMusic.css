@@ -1,0 +1,46 @@
+
+/*.newMusicList{
+	height: 100px; width: 100px;
+}
+.newMusicBody{
+	padding-right: 10px; height: 693px;
+}*/
+.subMusicList{
+	list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+.subNewMusicList{
+	height: 100px; width: 100px;
+}
+#video1{
+	width: 100%;
+	cursor: pointer;
+}
+#introduce{
+	position: relative;
+	display: block;
+}
+#message{
+	background-color: rgb(231, 231, 231); position: absolute; top: 643px; z-index: 1; height: 61px; padding: 10px;
+}
+#messageNull{
+	background-color: rgb(231, 231, 231); position: absolute; top: 564px; z-index: 1; height: 61px; padding: 10px;	
+}
+#musicPrev{
+	position: relative; cursor: pointer;
+}
+#prevIcon{
+	font-size: 50px; position: absolute; top: 25px; left: -37px;
+}
+#musicNext{
+	position: relative; cursor: pointer;
+}
+#nextIcon{
+	position: absolute; top: 25px; font-size: 50px; right: -27px;
+}
+/*#video1:hover{
+	position: relative;
+	display: none;
+}
+*/

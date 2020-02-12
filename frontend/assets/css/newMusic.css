@@ -1,0 +1,4 @@
+.newMusicListImg{height: 110px; width: 110px;}
+.newMusicListArtistTitle{font-weight: 700; color: white; font-size: 14px; height: 40px; line-height: 2; padding-top: 7px; text-align: center; border: 1px solid darkgray; background-color: darkgray; opacity: 0.9; position: relative; width: 110px; left: 28px;}
+.musicList{list-style:none; float: left; width: 14%; cursor: pointer; margin-top: 8px; text-align: center;}
+.musicList:Last-Child { margin-top: 3px;}

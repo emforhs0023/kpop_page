@@ -1,0 +1,22 @@
+/*#rankingTable, .rankingTh, .rankingTd {  
+  border: 1px solid #ddd;
+
+}*/
+.rankingTd, .rankingTh {  
+  border: 1px solid #ddd;
+
+}
+#rankingTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.rankingTd, .rankingTh {
+  padding: 15px;
+}
+.rankingTr:hover {
+	/*background-color: black;*/
+	background-image: url('../ranking/kpop_1.png');
+	background-size: 100% 100%;
+	color: white;
+}

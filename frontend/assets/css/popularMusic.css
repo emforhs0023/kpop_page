@@ -1,0 +1,36 @@
+.mainVideoData{
+	width:100%;
+	float: left;
+}
+.mainVideoList{
+	float: left; width: 48%;
+	padding: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.mainVideoList1{margin-top: 6px;}
+.mainVideoList:nth-child(2n) {
+	float: right;
+}
+.mainVideoArtistName{
+	color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	
+}
+.mainVideoSongTitle{
+	color: rgba(0, 0, 0, 0.45);
+	
+}
+.mainVideoCard{
+	clear: both;
+    padding-left: 40px;
+    padding-top: 30px;
+    border: 1px solid black;
+    padding-bottom: 47px;
+}
+

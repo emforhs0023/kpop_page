@@ -1,0 +1,4 @@
+#mainRankingList{ text-align-last: center; margin: 0 auto; width: 100%; margin-top: 30px;}
+.rankingList{float:left;}
+.rankingImg{width: 75px; height: 75px; padding: 5px;}
+.rankingUserId{font-weight: 700; margin-top: 16px;}
